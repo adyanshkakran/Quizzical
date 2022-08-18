@@ -1,13 +1,119 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    margin: 0;
+    caret-color: transparent;
+}
+
+.home--title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #293264;
+    margin: 0;
+}
+
+.home--desc {
+    font-family: 'Inter';
+    font-weight: 400;
+    color: #293264;
+}
+
+.home--button {
+    font-family: 'Karla', 'sans-serif';
+    height: 52px;
+    width: 193px;
+    border-radius: 15px;
+    border: none;
+    background: #4D5B9E;
+    color: #F5F7FB;
+    cursor: pointer;
+}
+
+main {
+    font-family: 'Karla', 'sans-serif';
+    background-color: #F5F7FB;
+}
+
+.mcq {
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz-home {
+    padding: 100px;
+    padding-top: 40px;
+}
+
+.options {
+    display: flex;
+}
+
+.option {
+    font-family: 'Inter', 'sans-serif';
+}
+
+.que {
+    font-weight: 700;
+    color: #293264;
+}
+
+.option {
+    padding: 6px 1rem;
+    min-width: 4rem;
+    border: 1px solid #4D5B9E;
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: #D6DBF5;
+}
+
+.red {
+    background-color: #F8BCBC;
+    color: grey;
+}
+
+.green {
+    background-color: #94D7A2;
+    ;
+}
+
+.submit {
+    font-family: 'Inter', 'sans serif';
+    font-weight: 600;
+    color: #F5F7FB;
+    background: #4D5B9E;
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: none;
+    margin-left: 58%;
+    cursor: pointer;
+}
+
+.final {
+    display: inline;
+    margin-right: 0;
+    font-family: 'Inter', 'sans serif';
+    font-weight: 700;
+    color: #293264;
+}
+
+.play-again {
+    font-family: 'Inter', 'sans serif';
+    font-weight: 600;
+    color: #F5F7FB;
+    background: #4D5B9E;
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: none;
+    margin-left: 40%;
+    cursor: pointer;
 }
